@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="../fontawesome/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/icono.png">
+    <script src="../js/codigo.js"></script>
+    <title>Selectores</title>
+</head>
+
+<body>
+    <div>
+        <nav class="contenido wrapper">
+            <ul>
+                <li><a href="#header"><i class="fas fa-arrow-up"></i></a></li>
+                <li><a href="#section-1">Tutorial</a></li>
+                <li><a href="#section-2">Selector ID</a></li>
+                <li><a href="#section-3">Selector Tipus</a></li>
+                <li><a href="#section-4">Selector Clase</a></li>
+                <li><a href="#section-5">Selector Combinat</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="header" class="flex">
+        <div>
+            <h1>Selectors de HTML i CSS: </h1>
+            <h2>ID, Tipus, Clase, Selectors Combinats</h2>
+            <i class="fas fa-laptop-code"></i>
+            <link rel="shortcut icon" href="./img/icono.png">
+        </div>
+
+        <!-- <div>
+            <i class="fas fa-laptop-code"></i>
+            <link rel="shortcut icon" href="../img/icono.png">
+        </div> -->
+    </div>
+
+
+    <div id="section-1">
+        <h1>Tutorial de Selectors HTML i CSS</h1>
+        <iframe width="1050" height="500" src="https://www.youtube.com/embed/UFMPApnnSbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="section-2">
+        <div class="column-2 ">
+            <h1 class="tit">Selector d'ID</h1>
+            <p class="txt">Es un selector que es defineix per un identificador únic el qual no es debeix repetir en tot el document. El seu proposit és identificar l'element al vincular-lo en scripts o fulls d'estils</p>
+        </div>
+
+        <div class="column-2 flex">
+            <img src="../img/id.png" class="img">
+        </div>
+    </div>
+
+    <div id="section-3">
+        <div class="column-2 flex">
+            <img src="../img/tipo.png" class="img">
+        </div>
+
+        <div class="column-2 ">
+            <h1 class="tit">Selector de Tipus</h1>
+            <p class="txt">El selector de tipus CSS selecciona Elements por nombre de node. En altres paraules, selecciona tots els Elements de el tipus Donat Dins d'un document.</p>
+        </div>
+    </div>
+
+    <div id="section-4">
+        <div class="column-2 ">
+            <h1 class="tit">Selector de Clase</h1>
+            <p class="txt">L'estructura de el selector de classe és la següent: "." seguit d'una característica, com per exemple "center", que el resultat seria que tot allò que estigui dins d'aquest element està alineat al centre.</p>
+        </div>
+
+        <div class="column-2 flex">
+            <img src="../img/clase.png" class="img">
+        </div>
+    </div>
+
+    <div id="section-5">
+        <div class="column-2 flex">
+            <img src="../img/combinados.png" class="img">
+        </div>
+
+        <div class="column-2 ">
+            <h1 class="tit">Selector Combinat</h1>
+            <p class="txt">Els selectors combinats estan compostos de, al menys, dues selectors units per un combinador intermedi. Hi ha quatre tipus de combinadors intermedis: Descendent (Espai), Fill directe (>), Element Adjacent (+) i de Element Germà (~)</p>
+        </div>
+    </div>
+
+    <div id="idioma">
+        <h2>Administra el teu treball en GitHub</h2>
+        <select name="language" id="language" onchange="language()">
+            <option value="ES">Español</option>
+            <option value="CA" selected>Catalán</option>
+    </select>
+    </div>
+
+
+</body>
+
+</html>
