@@ -1,174 +1,174 @@
-* {
-    box-sizing: border-box;
-    /* font family */
-    font-family: 'Quicksand', sans-serif;
-}
-
-body {
-    margin: 0;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.relleno-lat {
-    padding-left: 9%;
-    padding-right: 9%;
-}
-
-.relleno-col {
-    padding: 10px;
-}
-
-
-/* columnas */
-
-.column-2 {
-    width: 50%;
-    float: left;
-    padding: 7%;
-}
-
-
-/* encabezado */
-
-#header {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-    font-weight: bold;
-    font-size: 3vw;
-    text-align: center;
-}
-
-
-/* secciones */
-
-#section-1 {
-    text-align: left;
-    color: darkcyan;
-    font-size: 2vw;
-    padding: 7%;
-    background-color: lightgray;
-}
-
-#section-2 {
-    width: 100%;
-    float: left;
-    width: 100%;
-}
-
-#section-3 {
-    width: 100%;
-    float: left;
-    width: 100%;
-    background-color: lightgray;
-}
-
-#section-4 {
-    width: 100%;
-    float: left;
-    width: 100%;
-}
-
-#section-5 {
-    width: 100%;
-    float: left;
-    width: 100%;
-    background-color: lightgray;
-}
-
-
-/* texto */
-
-.tit {
-    font-size: 2.5vw;
-    color: darkcyan;
-}
-
-.txt {
-    font-size: 2.25vw;
-    text-align: left;
-}
-
-
-/* imagen */
-
-.img {
-    border-radius: 10px;
-    width: 45vw;
-}
-
-
-/* navegación */
-
-.sticky {
-    position: fixed;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: -webkit-sticky;
-    position: sticky;
-    font-size: 1vw;
-    width: 100%;
-    top: 0%;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: #111;
-}
-
-li.active {
-    background-color: #4caf50;
-}
-
-
-/* idioma */
-
-#idioma h2 {
-    font-size: 1.5vw;
-}
-
-
-/* responsive */
-
-@media only screen and (max-width: 700px) {
-    #header {
-        height: 200%;
-        font-size: 4vw;
-        text-align: center;
-    }
-    iframe {
-        width: 100%;
-    }
-    .column-2 {
-        width: 100%;
-    }
-    h1 {
-        font-size: 3vw;
-    }
-    h2 {
-        font-size: 2vw;
-    }
-}
+            * {
+                box-sizing: border-box;
+                /* font family */
+                font-family: 'Quicksand', sans-serif;
+            }
+            
+            body {
+                margin: 0;
+            }
+            
+            .flex {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .relleno-lat {
+                padding-left: 9%;
+                padding-right: 9%;
+            }
+            
+            .relleno-col {
+                padding: 10px;
+            }
+            /* columnas */
+            
+            .column-2 {
+                width: 50%;
+                float: left;
+                padding: 7%;
+            }
+            /* encabezado */
+            
+            #header {
+                height: 100%;
+                width: 100%;
+                background-size: cover;
+                background-attachment: fixed;
+                font-weight: bold;
+                font-size: 3vw;
+                text-align: center;
+            }
+            /* secciones */
+            
+            #section-1 {
+                text-align: left;
+                color: darkcyan;
+                font-size: 2vw;
+                padding: 7%;
+                background-color: lightgray;
+            }
+            
+            #section-2 {
+                width: 100%;
+                float: left;
+                width: 100%;
+            }
+            
+            #section-3 {
+                width: 100%;
+                float: left;
+                width: 100%;
+                background-color: lightgray;
+            }
+            
+            #section-4 {
+                width: 100%;
+                float: left;
+                width: 100%;
+            }
+            
+            #section-5 {
+                width: 100%;
+                float: left;
+                width: 100%;
+                background-color: lightgray;
+            }
+            /* texto */
+            
+            .tit {
+                font-size: 2.5vw;
+                color: darkcyan;
+            }
+            
+            .txt {
+                font-size: 2.25vw;
+                text-align: left;
+            }
+            /* imagen */
+            
+            .img {
+                border-radius: 10px;
+                width: 45vw;
+            }
+            /* navegación */
+            
+            .sticky {
+                position: fixed;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                position: -webkit-sticky;
+                position: sticky;
+                font-size: 1vw;
+                width: 100%;
+                top: 0%;
+            }
+            
+            li {
+                float: right;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                background-color: #111;
+            }
+            
+            li.active {
+                background-color: #4caf50;
+            }
+            /* idioma */
+            
+            #idioma h2 {
+                font-size: 1.5vw;
+            }
+            /* responsive */
+            
+            @media only screen and (max-width: 700px) {
+                #header {
+                    height: 200%;
+                    font-size: 5vw;
+                    text-align: center;
+                }
+                a {
+                    font-size: 2.5vw;
+                }
+                li a {
+                    padding: 14px 1.5vw;
+                }
+                iframe {
+                    width: 100%;
+                }
+                .column-2 {
+                    width: 100%;
+                }
+                h1 {
+                    font-size: 8vw;
+                }
+                .tit {
+                    font-size: 9vw;
+                }
+                .txt {
+                    font-size: 5vw;
+                }
+                .img {
+                    height: 45vh;
+                    width: 75vw;
+                }
+                #idioma h2 {
+                    font-size: 6vw;
+                }
+            }
