@@ -150,7 +150,8 @@
                     padding: 14px 1.5vw;
                 }
                 iframe {
-                    width: 100%;
+                    width: 90vw;
+                    height: 60vw;
                 }
                 .column-2 {
                     width: 100%;
